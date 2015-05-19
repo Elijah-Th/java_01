@@ -794,7 +794,6 @@ Returns the char value at the specified index
 Замена символов
 Шаблоны
 Шаблон телефонного номера
-```
 
 Сравнение строк
 ``` java
@@ -821,6 +820,7 @@ Returns the char value at the specified index
         assertArrayEquals(new String[]{"sudo", "-E", "cmd", "arg"}, concat(split, new String[]{"cmd", "arg"}));
     }
 }
+```
 [01_HelloWorld/src/test/java/p01_datatypes/StringTest.java](01_HelloWorld/src/test/java/p01_datatypes/StringTest.java)
 
 Основы объектно-ориентированного программирования: Класс. Экземпляр класса (объект)
@@ -867,9 +867,11 @@ Java не поддерживает множественное наследова
 при котором, как утверждается, никаких проблем не возникает.
 
 Не может содержать реализации методов
-int implementation(){
-int i = 2;
+``` java
+int implementation() {
+    int i = 2;
 }
+```
 Не может содержать полей
 int x;
 [02_OOP/src/main/java/MyInterface.java](02_OOP/src/main/java/MyInterface.java)
